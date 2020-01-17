@@ -6,34 +6,21 @@
 
 ### Project Specs
 #### Landing Page
-##### The landing page contains basic information about the company and allows users to easily navigate to other areas of the site. This page also includes the three most recently added products and the product with the most reviews.
+* The landing page contains basic information about the company and allows users to easily navigate to other areas of the site.
+* This page also includes the three most recently added products and the product with the most reviews.
 
 #### Products
 * The site includes a products section with a list of the products. Each product is clickable with a detail view.
-
 * Users are able to add, update and delete new products.
-Users should be able to click an individual product to see its detail page. (You will not be expected to show the product's average rating. That's included in the further exploration section.)
-Users should be able to add a review to a product.
-Scopes
-Your site should use scopes to display the following information on the site:
+* Users are able to click an individual product to see its detail page.
+* Users are able to add a review to a product.
 
-The product with the most reviews.
-The three most recently added products.
-All products made in the USA for buyers that want to buy local products.
-Validations
-Your site should include validations for the following:
+####Scopes
+* The site displays the following information on the site:
+  1. The product with the most reviews.
+  2. The three most recently added products.
+  3. All products made in the USA for buyers that want to buy local products.
 
-All fields should be filled out, including rating.
-Rating can only be an integer between 1 and 5.
-The review's content_body must be between 50 and 250 characters.
-Callbacks
-Your site should include a callback for the following:
-
-All products are automatically titleized (first letter of each word capitalized) before they are saved to the database.
-Seeding
-Your project should include seed data for 50 products and 250 reviews. Use Faker with a loop to seed the database.
-Flash Messages
-The project should include flash success and error messages for creating products and reviews.
 
 ### Project Routes
 |HTTP verb|Route|CRUD Action|Description|
